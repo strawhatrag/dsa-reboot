@@ -16,7 +16,7 @@ public class Armstrom {
     // add it to result
     //
     static boolean isArm(int n) {
-        int orginalVal = n;
+        int originalVal = n;
         int result = 0;
         while (n > 0) {
             int rem = n % 10;
@@ -24,6 +24,6 @@ public class Armstrom {
             result += rem * rem * rem;
         }
 
-        return result  == orginalVal;
+        return result  == originalVal;
     }
 }
